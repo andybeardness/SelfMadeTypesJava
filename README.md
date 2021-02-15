@@ -1,4 +1,4 @@
-# SelfMadeTypesJava
+# Self Made Abstract Types Java
 
 I created a self-made abstract data type with Java
 
