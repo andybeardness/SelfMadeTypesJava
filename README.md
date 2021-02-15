@@ -6,7 +6,7 @@ I created a self-made abstract data type with Java
 
 Dynamic-sized array
 
-CODE
+[CODE](https://github.com/andybeardness/SelfMadeTypesJava/tree/main/Array)
 
 ## ListOne
 
@@ -18,4 +18,4 @@ CODE
 
 A doubly linked list structure
 
-CODE
+[CODE](https://github.com/andybeardness/SelfMadeTypesJava/tree/main/List)
