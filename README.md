@@ -12,10 +12,10 @@ Dynamic-sized array
 
 A singly linked list structure
 
-CODE
+[>> CODE <<](https://github.com/andybeardness/SelfMadeTypesJava/tree/main/ListOne)
 
 ## ListTwo
 
 A doubly linked list structure
 
-[>> CODE <<](https://github.com/andybeardness/SelfMadeTypesJava/tree/main/List)
+[>> CODE <<](#)
