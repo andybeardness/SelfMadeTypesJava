@@ -23,5 +23,9 @@
 hs_err_pid*
 
 # self
+# # files
 .xml
 .iml
+
+# # folders
+.idea
