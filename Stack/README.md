@@ -15,7 +15,7 @@ _image by https://www.programiz.com/dsa/stack_
 
 ## Files
 
-- RunStack.java -- Main class to run stack tests
-- SelfStack.java -- Self-made Stack 
-- SelfStackInterface.java -- Interface for self-made Stack 
+- [RunStack.java](https://github.com/andybeardness/SelfMadeTypesJava/blob/main/Stack/RunStack.java) -- Main class to run stack tests
+- [SelfStack.java](https://github.com/andybeardness/SelfMadeTypesJava/blob/main/Stack/SelfStack.java) -- Self-made Stack 
+- [SelfStackInterface.java](https://github.com/andybeardness/SelfMadeTypesJava/blob/main/Stack/SelfStackInterface.java) -- Interface for self-made Stack 
 
