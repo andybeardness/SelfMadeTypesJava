@@ -7,6 +7,7 @@ public class RunStack {
         defaultStack();
         tenItemsStack();
         fullAndEmptyStack();
+        tryOutOfBounds();
     }
 
     public static void show(String str) {
@@ -121,6 +122,44 @@ public class RunStack {
     }
 
     public static void tryOutOfBounds() {
-        
+        int size = 4;
+        SelfStack<String> strStack = new SelfStack<>(size);
+
+        show(strStack.toString());
+
+        strStack.push("A1");
+        strStack.push("A2");
+        strStack.push("A3");
+        strStack.push("A4");
+
+        show(strStack.toString());
+
+        strStack.push("OUT5");
+
+        show(strStack.toString());
+
+        show(strStack.pop());
+        show(strStack.pop());
+        show(strStack.pop());
+        show(strStack.pop());
+
+        show(strStack.toString());
+
+        show(strStack.pop());
+
+        show(strStack.toString());
+
+        strStack.push("AN1");
+        strStack.push("AN2");
+        strStack.push("AN3");
+        strStack.push("AN4");
+
+        show(strStack.toString());
+
+        strStack.push("OUTN5");
+
+        show(strStack.toString());
+
+        showEnd();
     }
 }

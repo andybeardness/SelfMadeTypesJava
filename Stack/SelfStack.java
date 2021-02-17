@@ -30,6 +30,7 @@ class SelfStack<T> implements SelfStackInterface<T> {
 
     @Override
     public void push(T obj) {
+        if (current == size) current -= 1;
         stack[current++] = obj;
     }
 
