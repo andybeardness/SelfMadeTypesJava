@@ -1,8 +1,19 @@
+/**
+ * Main class for start Stack tests
+ */
 public class RunStack {
+    /**
+     * Enter point of app
+     *
+     * @param args -- useless in this case
+     */
     public static void main(String[] args) {
         runTests();
     }
 
+    /**
+     * Running tests
+     */
     public static void runTests() {
         defaultStack();
         tenItemsStack();
@@ -10,10 +21,18 @@ public class RunStack {
         tryOutOfBounds();
     }
 
+    /**
+     * Make "System.out.println()" more pretty
+     *
+     * @param str -- value to show
+     */
     public static void show(String str) {
         System.out.println(str);
     }
 
+    /**
+     * Print pretty end of test
+     */
     public static void showEnd() {
         System.out.println();
         System.out.println("= = = = = = = = = = = =");
@@ -22,6 +41,9 @@ public class RunStack {
         System.out.println();
     }
 
+    /**
+     * Test #1 : Make default Stack with size == 1
+     */
     public static void defaultStack() {
         SelfStack<String> strStack = new SelfStack<>();
 
@@ -44,6 +66,9 @@ public class RunStack {
         showEnd();
     }
 
+    /**
+     * Test #2 : Make Stack with size == 10
+     */
     public static void tenItemsStack() {
         int size = 10;
         SelfStack<String> strStack = new SelfStack<>(size);
@@ -88,6 +113,9 @@ public class RunStack {
         showEnd();
     }
 
+    /**
+     * Test #3 : Make Stack and try to make if full end empty
+     */
     public static void fullAndEmptyStack() {
         int size = 5;
         SelfStack<String> strStack = new SelfStack<>(size);
@@ -121,6 +149,11 @@ public class RunStack {
         showEnd();
     }
 
+    /**
+     * Test #4 : Make Stack and try to out of bounds:
+     *      - .push when stack is full
+     *      - .pop when stack is empty
+     */
     public static void tryOutOfBounds() {
         int size = 4;
         SelfStack<String> strStack = new SelfStack<>(size);

@@ -1,5 +1,25 @@
 import java.util.Arrays;
 
+/**
+ * Self-made Stack class for educations
+ *
+ * private vars :
+ *      - size    -- size of Stack
+ *      - stack   -- array Stack
+ *      - current -- index of last item
+ *
+ * methonds :
+ *      public :
+ *          - push -- push item in Stack
+ *          - pop -- pop item out of Stack
+ *          - toString -- string value of object
+ *
+ *      private :
+ *          - initStack -- init Stack array
+ *
+ * @author Beardness Andy
+ * @param <T> any linked type of data
+ */
 class SelfStack<T> implements SelfStackInterface<T> {
     private int size;
     private T[] stack;
