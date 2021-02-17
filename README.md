@@ -8,7 +8,7 @@ I created a self-made abstract data type with Java
 
 Just Stack
 
-[>> CODE <<](https://github.com/andybeardness/SelfMadeTypesJava/tree/main/Stack)
+[CODE](https://github.com/andybeardness/SelfMadeTypesJava/tree/main/Stack)
 
 ----
 
@@ -16,7 +16,7 @@ Just Stack
 
 Dynamic-sized array
 
-[>> CODE <<](https://github.com/andybeardness/SelfMadeTypesJava/tree/main/Array)
+[CODE](https://github.com/andybeardness/SelfMadeTypesJava/tree/main/Array)
 
 ----
 
@@ -24,7 +24,7 @@ Dynamic-sized array
 
 A singly linked list structure
 
-[>> CODE <<](https://github.com/andybeardness/SelfMadeTypesJava/tree/main/ListOne)
+[CODE](https://github.com/andybeardness/SelfMadeTypesJava/tree/main/ListOne)
 
 ----
 
@@ -32,4 +32,4 @@ A singly linked list structure
 
 A doubly linked list structure
 
-[>> CODE <<](https://github.com/andybeardness/SelfMadeTypesJava/tree/main/ListTwo)
+[CODE](https://github.com/andybeardness/SelfMadeTypesJava/tree/main/ListTwo)
