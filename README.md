@@ -2,25 +2,33 @@
 
 I created a self-made abstract data type with Java
 
-## Array
+----
 
-Dynamic-sized array
-
-[>> CODE <<](https://github.com/andybeardness/SelfMadeTypesJava/tree/main/Array)
-
-## Stack
+## Stack ✔️
 
 Just Stack
 
 [>> CODE <<](https://github.com/andybeardness/SelfMadeTypesJava/tree/main/Stack)
 
-## ListOne
+----
+
+## Array 🚧
+
+Dynamic-sized array
+
+[>> CODE <<](https://github.com/andybeardness/SelfMadeTypesJava/tree/main/Array)
+
+----
+
+## ListOne ❌
 
 A singly linked list structure
 
 [>> CODE <<](https://github.com/andybeardness/SelfMadeTypesJava/tree/main/ListOne)
 
-## ListTwo
+----
+
+## ListTwo ❌
 
 A doubly linked list structure
 
