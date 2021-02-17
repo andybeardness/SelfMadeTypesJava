@@ -49,3 +49,10 @@ At start you have two ways to create an object:
         strStack.toString();
         // SelfStack{size=10, stack=[A1, null, null, null, null, null, null, null, null, null], current=1}
 ```
+
+----
+
+## Features
+
+- When Stack is empty -- .pop return Null
+- When Stack is full -- .push rewrite last element
