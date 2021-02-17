@@ -8,6 +8,12 @@ Dynamic-sized array
 
 [>> CODE <<](https://github.com/andybeardness/SelfMadeTypesJava/tree/main/Array)
 
+## Stack
+
+Just Stack
+
+[>> CODE <<](https://github.com/andybeardness/SelfMadeTypesJava/tree/main/Stack)
+
 ## ListOne
 
 A singly linked list structure
